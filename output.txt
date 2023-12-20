@@ -1,0 +1,16 @@
+output file-
+      
+        precision    recall  f1-score   support
+
+           0       0.75      0.60      0.67       319
+           1       0.73      0.66      0.69       389
+           2       0.64      0.62      0.63       394
+           3       0.56      0.63      0.59       392
+           4       0.72      0.68      0.70       385
+
+   micro avg       0.66      0.66      0.66      1879
+   macro avg       0.68      0.64      0.66      1879
+weighted avg       0.67      0.66      0.66      1879
+
+
+This output provides performance metrics for each category in the 20 newsgroups dataset. Adjustments to the classifier parameters and the dataset may result in different performance characteristics.
