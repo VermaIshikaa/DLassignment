@@ -1,8 +1,10 @@
 # DLassignment
 BOOSTING
+
 Boosting is an ensemble learning technique that combines multiple weak learners (models that perform slightly better than random chance) to create a strong learner. The idea behind boosting is to train each weak learner sequentially, with each subsequent learner focusing on the mistakes made by the previous ones. This allows the ensemble model to correct errors and improve overall performance.
 
 The specific boosting algorithm used in the provided program is the Gradient Boosting Classifier, which is a popular implementation of boosting. In the code,we have the following steps-
+
 1.Data Loading:
 The code loads the 20 newsgroups dataset using fetch_20newsgroups. It retrieves the training and testing sets along with their corresponding labels.
 
